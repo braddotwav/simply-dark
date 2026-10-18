@@ -3927,11 +3927,6 @@ div#home_gutter_recentlyviewed {
     backdrop-filter: blur(3px) !important;
 }
 
-::selection {
-    background: var(--blue) !important;
-    color: var(--color-darkest) !important;
-}
-
 a,
 .store_header_btn_gray a,
 a.pulldown_desktop,
