@@ -1,46 +1,5 @@
 {
     "Conditions": {
-        "Compacted Header": {
-            "tab": "Window",
-            "description": "Use a more compact header bar on Steam (everything is on 1 row)",
-            "default": "Normal",
-            "values": {
-                "Normal": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"],
-                        "src": "headers/NormalHeader.css"
-                    },
-                    "TargetJs": {
-                        "affects": ["^Steam$"],
-                        "src": "headers/NormalHeader.js"
-                    }
-                },
-                "Compact": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"],
-                        "src": "headers/CompactHeader.css"
-                    },
-                    "TargetJs": {
-                        "affects": ["^Steam$"],
-                        "src": "headers/CompactHeader.js"
-                    }
-                }
-            }
-        },
-        "Native Titlebars": {
-            "tab": "Window",
-            "description": "Use system's native titlebars (minimize, maximize, restore, and close) buttons",
-            "default": "Show",
-            "values": {
-                "Show": {},
-                "Hide": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"],
-                        "src": "config/NativeTitlebarVisibility.css"
-                    }
-                }
-            }
-        },
         "Wallet Visibility": {
             "tab": "Elements",
             "description": "Show wallet balance on the top right menu",
@@ -133,21 +92,11 @@
         },
         {
             "MatchRegexString": "^Steam$",
-            "Statement": [
-                {
-                    "Equals": true,
-                    "False": {
-                        "TargetCss": "headers/NormalHeader.css",
-                        "TargetJs": "headers/NormalHeader.js"
-                    },
-                    "If": "Compacted Header",
-                    "True": {
-                        "TargetCss": "headers/CompactHeader.css",
-                        "TargetJs": "headers/CompactHeader.js"
-                    }
-                }
-            ],
-            "TargetCss": "Steam.css"
+            "TargetCss": "/header/CompactHeader.css"
+        },
+        {
+          "MatchRegexString": "^Steam$",
+          "TargetCss": "Steam.css"
         },
         {
             "MatchRegexString": "Shutdown",
@@ -225,18 +174,9 @@
     ],
     "RootColors": "colors.css",
     "Steam-WebKit": "webkit/webkit.css",
-    "author": "ShadowMonster",
-    "description": "A sleek and elegant theme that brings a darker, more immersive experience to your Steam client.",
-    "discord_support": {
-        "inviteCodeExcludingLink": "NcNMP6r2Cw"
-    },
-    "github": {
-        "owner": "shdwmtr",
-        "repo_name": "simply-dark"
-    },
-    "header_image": "https://i.imgur.com/uXtPTnr.png",
+    "author": "braddotwav",
+    "description": "A sleek, minimalist redesign of the steam client.",
     "name": "Simple Dark.",
-    "splash_image": "https://i.imgur.com/uXtPTnr.png",
     "tags": ["Minimal", "Dark", "Sleek", "Compact"],
-    "version": "1.7"
+    "version": "1.0"
 }
