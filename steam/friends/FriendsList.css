@@ -1,5 +1,6 @@
 @import url(../../TitleBar.css);
 @import url(ChatWindow.css);
+@import url(../../colors.css);
 
 .friendListHeaderContainer {
     background: var(--color-dark) !important;
@@ -81,7 +82,7 @@ img._3fM0F85j3aWVzr4RJM9-eu {
 }
 
 .activeTab {
-    background: none !important; 
+    background: none !important;
     box-shadow: none !important;
 }
 
