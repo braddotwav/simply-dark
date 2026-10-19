@@ -9,6 +9,7 @@
 @import url(steam/TopBar.css);
 @import url(TitleBar.css);
 @import url(webkit/reservedWebkitColors.css);
+@import url(colors.css);
 
 ::-webkit-scrollbar{
     background-color: transparent !important;
@@ -841,4 +842,9 @@ EG: "Play next" category names & "Sort by" dropdown */
 /* Notifications */
 ._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42, ._1oERP7bVictkby2hP4BBva {
     background: var(--color-dark) !important
+}
+
+/* URL */
+.UkR3sY319PuaUNuUWks2K {
+    display: none !important;
 }
