@@ -1,36 +1,8 @@
 {
     "Conditions": {
-        "Wallet Visibility": {
-            "tab": "Elements",
-            "description": "Show wallet balance on the top right menu",
-            "default": "Show",
-            "values": {
-                "Show": {},
-                "Hide": {
-                    "TargetCss": {
-                        "affects": ["^Account", "^Steam$"],
-                        "src": "config/WalletVisibility.css"
-                    }
-                }
-            }
-        },
-        "URL Visibility": {
-            "tab": "Elements",
-            "description": "Show URL bar when browsing inside Steam",
-            "default": "Show",
-            "values": {
-                "Show": {},
-                "Hide": {
-                    "TargetCss": {
-                        "affects": ["^Steam$"],
-                        "src": "config/URLBarVisibility.css"
-                    }
-                }
-            }
-        },
         "What's New Visibility": {
             "tab": "Elements",
-            "description": "Show news and updates on library from the games you own",
+            "description": "Show or hide the What’s New feed in the Library",
             "default": "Show",
             "values": {
                 "Show": {},
@@ -44,7 +16,7 @@
         },
         "Add Shelf Visibility": {
             "tab": "Elements",
-            "description": "Show add shelf button",
+            "description": "Show or hide the Add Shelf button in the Library",
             "default": "Show",
             "values": {
                 "Show": {},
@@ -56,23 +28,9 @@
                 }
             }
         },
-        "Friends Status Outline": {
-            "tab": "Elements",
-            "description": "Enable the friends status (online and in-game) indicator in friends tab",
-            "default": "Hide",
-            "values": {
-                "Hide": {},
-                "Show": {
-                    "TargetCss": {
-                        "affects": ["friendsui-container"],
-                        "src": "config/FriendsOutline.css"
-                    }
-                }
-            }
-        },
         "Steam News Visibility": {
             "tab": "Elements",
-            "description": "Show 'Steam News' button (megaphone) on top right",
+            "description": "Show or hide the Steam News button in the top right",
             "default": "Show",
             "values": {
                 "Show": {},
@@ -172,7 +130,6 @@
             "TargetCss": "overlay/Browser.css"
         }
     ],
-    "RootColors": "colors.css",
     "Steam-WebKit": "webkit/webkit.css",
     "author": "braddotwav",
     "description": "A sleek, minimalist redesign of the steam client.",
