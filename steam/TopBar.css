@@ -99,3 +99,19 @@
     bottom: 0;
     right: 0;
 }
+
+/* Make the whole DownloadStatus button clickable */
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 {
+    padding: 0 !important;
+}
+
+._3vCzSrrXZzZjVJFZNg9SGu ._2EQ7ghgqIdjKv9jsQC0Zq9 .ip-YZhijAMZcuRoXBGiye {
+    padding: 0 16px !important;
+    align-self: stretch !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+._1KrJ3sFAqPBN9mfpaNTU5F.Icon {
+    display: inline-flex;
+}
