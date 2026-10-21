@@ -4127,3 +4127,13 @@ html.client ._16jZ3HEbtaJTl80pQINN2Y,
 ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4.zxpXN3eSl7IE7Y_HFaDsf {
     background: var(--lightgrey) !important;
 }
+
+.responsive_local_menu a,
+.responsive_local_menu a:hover {
+    text-decoration: none !important;
+}
+
+.blotter_daily_rollup_line a,
+.blotter_daily_rollup_line a:hover {
+    text-decoration: none !important;
+}
