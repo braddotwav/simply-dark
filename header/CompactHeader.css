@@ -37,7 +37,7 @@
 
 ._3vCzSrrXZzZjVJFZNg9SGu.BottomBar {
     top: 8px;
-    right: calc(297.59px - var(--news-button-width) * var(--news-hidden, 0));
+    right: calc(265.59px - var(--news-button-width) * var(--news-hidden, 0));
     position: fixed;
 }
 
