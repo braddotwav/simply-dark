@@ -2245,12 +2245,12 @@ span.invite_action_txt {
     border-radius: var(--border2) !important;
     color: var(--white) !important;
 }
-input[type="number"],
-input[type="password"],
-input[type="text"],
-select {
-    border: 2px solid transparent !important;
-    border-radius: var(--border2) !important;
+.XLbP8xOkCYw-{
+    background: var(--color-darker) !important;
+    border-left: none !important;
+}
+.O2jUvAs3OiU-{
+    background: var(--color-darker) !important;
 }
 #search_players_form input[type="submit"] {
     margin-top: 5px !important;
@@ -2473,24 +2473,23 @@ body.v6 #footer .rule {
 .discount_block.no_discount .bundle_base_discount {
     border-right: 0 !important;
 }
+
 .queue_controls_description {
     color: var(--gold) !important;
     background: 0 0 !important;
     margin-top: -10px !important;
     margin-left: 12px;
 }
+
 .queue_btn_menu > .queue_menu_arrow,
 .queue_btn_menu > .queue_menu_arrow:hover {
     background: var(--grey) !important;
 }
+
 .queue_btn_menu > .queue_menu_arrow:hover img {
     filter: grayscale(100) brightness(100);
 }
-/* .btn_next_in_queue .next_in_queue_content{padding:25px 15% 0 28%!important}
-.btn_next_in_queue{background:0 0!important;background-color:#584d31!important;width:230px!important;height:80px!important;margin-bottom:-10px!important;margin-right:-15px!important;margin-top:-35px!important;border-radius:var(--border5)!important}
-.btn_next_in_queue{background:0 0!important;background-color:var(--bronze)!important;width:230px!important;height:80px!important;margin-bottom:-10px!important;margin-right:-15px!important;margin-top:20px!important;border-radius:var(--border5)!important}
-.btn_next_in_queue span{color:var(--gold)!important}
-.btn_next_in_queue:hover span{color:var(--gold)!important} */
+
 .game_area_comingsoon {
     border-radius: var(--border0) !important;
 }
@@ -4063,16 +4062,6 @@ body.v6 h2 a,
 .btnv6_white_transparent,
 .btnv6_white_transparent:hover {
     background: transparent !important;
-}
-
-html:not(.rn_mobile_app) body.v7menu:not(.menu_background_overlap):not(.sale_page_background) .responsive_page_template_content {
-	padding-top: 0 !important;
-}
-
-._19o1GB7ysfrWKLYpqZ6aXu,
-.PlaceholderInner {
-	display: none;
-	height: 0px !important;
 }
 
 html.client ._16jZ3HEbtaJTl80pQINN2Y,
