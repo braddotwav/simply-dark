@@ -19,6 +19,11 @@
     left: 40px;
     position: absolute;
     padding-left: 0px;
+    width: fit-content !important;
+}
+
+html:has(._39oUCO1OuizVPwcnnv88no :hover) ._2_lmTz0tA4NOSle5WaO1PZ {
+    display: none !important;
 }
 
 ._39oUCO1OuizVPwcnnv88no {
