@@ -311,13 +311,6 @@ img {
 .tab_item_discount.no_discount .bundle_base_discount {
     border-radius: var(--border0) !important;
 }
-.discount_block .discount_pct,
-.discount_pct {
-    border-radius: var(--border0) !important;
-}
-.discount_block .discount_original_price {
-    border-radius: var(--border0) !important;
-}
 .searchbox_news {
     border: 1px solid var(--black) !important;
     background-color: #5398c300 !important;
@@ -3668,6 +3661,9 @@ div.profile_page.has_profile_background {
 .friend_block_v2 .player_avatar {
     margin-top: 2px !important;
 }
+.creator_follow_btn {
+    border: none !important;
+}
 .friendBlock .friendPlayerLevel {
     margin: 1px 6px 5px 5px !important;
 }
@@ -4093,6 +4089,7 @@ html.client ._16jZ3HEbtaJTl80pQINN2Y,
     display: none !important;
 }
 
+/* Store page backgrounds */
 ._291ttHtxyu5obiKzor2G9G,
 .store_main_capsule .info,
 .carousel_container.spotlight .carousel_items,
@@ -4101,6 +4098,9 @@ html.client ._16jZ3HEbtaJTl80pQINN2Y,
 .deep_dive_key_tags,
 .recently_updated_desc,
 .tab_preview,
+.carousel__slide,
+.creator_capsule_ctn,
+.nHdn-Ea4zSg- .maxz19gKOQc-.N3v3VnhKgU8-,
 .home_tabs_sections .tab_content_items {
     background: var(--darkergrey) !important;
 }
