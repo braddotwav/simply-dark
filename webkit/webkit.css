@@ -3534,8 +3534,7 @@ h2.pageheader {
     left: 0 !important;
     margin: 0 40px 0 10px !important;
 }
-/* #modalContentFrameContainer{height:100%!important} */
-/* #modalContentFrameContainer .modalContent_iFrame{height:100%!important} */
+
 #modalContentTitleBar {
     background-color: var(--blacker) !important;
 }
@@ -4104,6 +4103,11 @@ html.client ._16jZ3HEbtaJTl80pQINN2Y,
 .home_tabs_sections .tab_content_items {
     background: var(--darkergrey) !important;
 }
+
+.home_deck_section {
+    background: none !important;
+}
+
 
 .tab_row_item.focus {
     background: var(--grey) !important;
