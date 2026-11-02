@@ -1,5 +1,12 @@
-:root {
-    --news-button-width: 56px;
+@supports (anchor-name: --a) {
+    ._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
+        anchor-name: --header-right;
+    }
+
+    ._3vCzSrrXZzZjVJFZNg9SGu.BottomBar {
+        position-anchor: --header-right;
+        right: anchor(left);
+    }
 }
 
 ._39oUCO1OuizVPwcnnv88no {
@@ -42,7 +49,6 @@ html:has(._39oUCO1OuizVPwcnnv88no :hover) ._2_lmTz0tA4NOSle5WaO1PZ {
 
 ._3vCzSrrXZzZjVJFZNg9SGu.BottomBar {
     top: 8px;
-    right: calc(261.59px - var(--news-button-width) * var(--news-hidden, 0));
     position: fixed;
 }
 
@@ -51,6 +57,7 @@ html:has(._39oUCO1OuizVPwcnnv88no :hover) ._2_lmTz0tA4NOSle5WaO1PZ {
     box-shadow: none !important;
     background: none !important;
     gap: 8px !important;
+    padding: 0 8px !important;
     flex: 0 !important;
     -webkit-app-region: no-drag;
 }
