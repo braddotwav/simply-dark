@@ -50,7 +50,7 @@
         },
         {
             "MatchRegexString": "^Steam$",
-            "TargetCss": "/header/CompactHeader.css"
+            "TargetCss": "header/CompactHeader.css"
         },
         {
           "MatchRegexString": "^Steam$",
