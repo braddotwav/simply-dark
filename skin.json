@@ -1,8 +1,8 @@
 {
     "Conditions": {
         "What's New Visibility": {
-            "tab": "Elements",
-            "description": "Show or hide the What’s New feed in the Library",
+            "tab": "Configuration",
+            "description": "Show or hide the What’s New feed in the Library view",
             "default": "Show",
             "values": {
                 "Show": {},
@@ -15,8 +15,8 @@
             }
         },
         "Add Shelf Visibility": {
-            "tab": "Elements",
-            "description": "Show or hide the Add Shelf button in the Library",
+            "tab": "Configuration",
+            "description": "Show or hide the Add Shelf button in the Library view",
             "default": "Show",
             "values": {
                 "Show": {},
@@ -29,8 +29,8 @@
             }
         },
         "Steam News Visibility": {
-            "tab": "Elements",
-            "description": "Show or hide the Steam News button in the top right",
+            "tab": "Configuration",
+            "description": "Show or hide the Steam News button",
             "default": "Show",
             "values": {
                 "Show": {},
