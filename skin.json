@@ -14,6 +14,20 @@
                 }
             }
         },
+        "Acount Vac Ban Visibility": {
+            "tab": "Configuration",
+            "description": "Show or hide your own VAC ban status on your profile",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["https:\\/\\/steamcommunity\\.com\\/id\\/.*"],
+                        "src": "config/AccountVACVisibility.css"
+                    }
+                }
+            }
+        },
         "Add Shelf Visibility": {
             "tab": "Configuration",
             "description": "Show or hide the Add Shelf button in the Library view",

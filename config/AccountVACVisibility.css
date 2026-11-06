@@ -1,0 +1,3 @@
+body:has(.profile_header_actions a[href*="/edit"]) .profile_ban_status {
+    display: none !important;
+}
